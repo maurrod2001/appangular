@@ -13,6 +13,7 @@ import { PrecioComponent } from './paginas/precio/precio.component';
 import { RedesComponent } from './componentes/redes/redes.component';
 import { CaracteristicasComponent } from './paginas/caracteristicas/caracteristicas.component';
 import { FeaturesComponent } from './componentes/features/features.component';
+import { PreciosComponent } from './componentes/precios/precios.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FeaturesComponent } from './componentes/features/features.component';
     PrecioComponent,
     RedesComponent,
     CaracteristicasComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    PreciosComponent
   ],
   imports: [
     BrowserModule,
