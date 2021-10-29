@@ -1,0 +1,6 @@
+.pink{
+    background: crimson;
+}
+.pink:hover{
+    background-color: rgb(199, 18, 57)
+};

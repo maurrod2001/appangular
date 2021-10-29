@@ -8,6 +8,10 @@ import { PrincipalComponent } from './paginas/principal/principal.component';
 import { PieComponent } from './componentes/pie/pie.component';
 import { Parrafo1Component } from './componentes/parrafo1/parrafo1.component';
 import { ImgcamComponent } from './componentes/imgcam/imgcam.component';
+import { ContactenosComponent } from './paginas/contactenos/contactenos.component';
+import { PrecioComponent } from './paginas/precio/precio.component';
+import { RedesComponent } from './componentes/redes/redes.component';
+import { CaracteristicasComponent } from './paginas/caracteristicas/caracteristicas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { ImgcamComponent } from './componentes/imgcam/imgcam.component';
     PrincipalComponent,
     PieComponent,
     Parrafo1Component,
-    ImgcamComponent
+    ImgcamComponent,
+    ContactenosComponent,
+    PrecioComponent,
+    RedesComponent,
+    CaracteristicasComponent
   ],
   imports: [
     BrowserModule,
