@@ -12,6 +12,7 @@ import { ContactenosComponent } from './paginas/contactenos/contactenos.componen
 import { PrecioComponent } from './paginas/precio/precio.component';
 import { RedesComponent } from './componentes/redes/redes.component';
 import { CaracteristicasComponent } from './paginas/caracteristicas/caracteristicas.component';
+import { FeaturesComponent } from './componentes/features/features.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CaracteristicasComponent } from './paginas/caracteristicas/caracteristi
     ContactenosComponent,
     PrecioComponent,
     RedesComponent,
-    CaracteristicasComponent
+    CaracteristicasComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
